@@ -8,11 +8,12 @@
 -   [x] AI 真人模拟
 
 
+
+
 ![2019-10-06-11-20-37](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/f1e8e905c6307852ab38b99d19dbd8eb.png)
 
 
-![2019-10-06-11-22-30](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/7dff8a1ead7e7d3bb1b6482f8966028a.png)
-
+![2019-10-06-11-27-15](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/e4f179895c1713b25d26d273c6c6379e.png)
 
 数据监控: https://s3.nikecdn.com/public/80794486b1728205dd219006256bb
 
@@ -48,7 +49,6 @@ x-requested-with: com.nike.snkrs
 //可能,如果登录失败，要么切换设备ID，要么上传错误信息后拿到cookie重新登录
 https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&native=true&uxid=com.nike.commerce.snkrs.droid&locale=zh_CN&osVersion=24&sdkVersion=2.8.1&backendEnvironment=identity&url=https%3A%2F%2Fs3.nikecdn.com%2Flogin%3FappVersion%3D638%26experienceVersion%3D638%26uxid%3Dcom.nike.commerce.snkrs.droid%26locale%3Dzh_CN%26backendEnvironment%3Didentity%26browser%3DGoogle%2520Inc.%26os%3Dundefined%26mobile%3Dtrue%26native%3Dtrue%26visit%3D1%26visitor%3Dc36c3bfa-6700-43cd-bc7b-72a23c398b34&errorMsg=HTTP+error+message%3A++and+code%3A+401
 ```
-
 
 
 ### 协议
