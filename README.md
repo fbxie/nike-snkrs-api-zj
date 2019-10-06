@@ -1,5 +1,11 @@
 ## nike snkrs 分析
 
+该项目只提供演示api调用结果，目前实现功能：
+
+-   [x] 登录
+-   [x] 注册
+-   [x] 抢货
+-   [x] AI 真人模拟
 
 
 ![2019-10-06-11-20-37](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/f1e8e905c6307852ab38b99d19dbd8eb.png)
