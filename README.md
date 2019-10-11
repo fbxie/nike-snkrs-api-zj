@@ -1,11 +1,18 @@
 ## nike snkrs 分析
 
+原文地址：https://github.com/zhaojunlike/nike-snkrs-api
+
+
+
 该项目只提供演示api调用结果，目前实现功能：
 
 -   [x] 登录
 -   [x] 注册
 -   [x] 抢货
 -   [x] AI 真人模拟
+-   [x] cookies生成
+-   [x] akamai AI风控过检
+-   [x] 自动养号，代理IP
 
 
 
@@ -51,6 +58,31 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 ```
 
 
+## 协议开放API列表
+
+![2019-10-11-13-50-10](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/6e12afb1865e1d868d0bdd97897175c0.png)
+
+
+
+下面是部分任务截图
+
+![2019-10-11-14-25-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/d32bb6e91a8d1a2f1c4e23221dd5100e.png)
+
+
+## 架构
+
+1.nodejs api端提供web服务
+
+2.golang 消息队列消费任务
+
+
+## 租用资源
+
+联系我
+
+
 ### 协议
 
 授权协议：只允许研究、学习目的的分享、使用、修改，不允许任何商业用途。转载请注明出处，感谢。
+
+
