@@ -2,6 +2,10 @@
 
 原文地址：https://github.com/zhaojunlike/nike-snkrs-api
 
+snkrs bot api
+
+
+
 
 
 该项目只提供演示api调用结果，目前实现功能：
@@ -66,6 +70,7 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 
 下面是部分任务截图
 
+![2019-10-11-18-10-22](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/b9a2dd21e26fb4f8c89d53deab8c3318.png)
 ![2019-10-11-14-25-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/d32bb6e91a8d1a2f1c4e23221dd5100e.png)
 
 
