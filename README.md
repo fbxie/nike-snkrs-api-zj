@@ -19,15 +19,7 @@ snkrs bot api
 -   [x] 自动养号，代理IP
 
 
-
-
-![2019-10-06-11-20-37](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/f1e8e905c6307852ab38b99d19dbd8eb.png)
-
-
 ![2019-10-06-11-27-15](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/e4f179895c1713b25d26d273c6c6379e.png)
-
-数据监控: https://s3.nikecdn.com/public/80794486b1728205dd219006256bb
-
 
 
 登录流程：
@@ -73,7 +65,8 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 ![2019-10-11-18-10-22](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/b9a2dd21e26fb4f8c89d53deab8c3318.png)
 ![2019-10-11-14-25-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/d32bb6e91a8d1a2f1c4e23221dd5100e.png)
 
-
+![2019-10-12-08-08-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/9e50972fc3b6778fcf11dfc2ece6e48a.png)
+![2019-10-12-08-14-00](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/0ed28b24e443a6f035b07d625503c670.png)
 ## 架构
 
 1.nodejs api端提供web服务
@@ -84,6 +77,8 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 ## 租用资源
 
 联系我
+
+
 
 
 ### 协议
