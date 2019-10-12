@@ -67,19 +67,23 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 
 ![2019-10-12-08-08-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/9e50972fc3b6778fcf11dfc2ece6e48a.png)
 ![2019-10-12-08-14-00](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/0ed28b24e443a6f035b07d625503c670.png)
+
+
 ## 架构
 
 1.nodejs api端提供web服务
 
 2.golang 消息队列消费任务
 
-
 ## 租用资源
 
 联系我
 
+## 计划
 
-
+-   1.开放部分API
+-   2.支付宝自动扫码付款插件（开放源代码）
+-   3.订单后续实时同步查询状态
 
 ### 协议
 
