@@ -5,7 +5,8 @@
 snkrs bot api
 
 
-akamai ai 风控系统 100% 过，3端数据mock api 任选
+> 1.akamai ai 风控系统 100% 过，3端数据mock api 任选
+> 2.cookies 检测100%过 提供生成api
 
 
 
