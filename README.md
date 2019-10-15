@@ -5,8 +5,11 @@
 snkrs bot api
 
 
-> 1.akamai ai 风控系统 100% 过，3端数据mock api 任选
-> 2.cookies 检测100%过 提供生成api
+> 1.Akamai ai risk control system 100% pass, 3-terminal data mock API optional
+
+> 2.Cookie detection is 100% over provided by the generation API
+
+> 3.Make sure that each sensor-data is very relevant
 
 
 
@@ -18,7 +21,7 @@ snkrs bot api
 -   [x] AI 真人模拟
 -   [x] cookies生成
 -   [x] akamai AI风控过检
--   [x] 自动养号，代理IP
+-   [x] Automatic raising number
 
 
 ![2019-10-06-11-27-15](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/e4f179895c1713b25d26d273c6c6379e.png)
