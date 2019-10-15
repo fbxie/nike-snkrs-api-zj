@@ -12,20 +12,28 @@ snkrs bot api
 > 3.Make sure that each sensor-data is very relevant
 
 
+## web端思路
+web端其实太简单了，mock一些事件和canvas就可以完成，所以如果你感兴趣可以看这个js文件：./mobile_files/80794486b1728205dd219006256bb.js ,
+我做的数据来自于ios和android，他们使用了更复杂的算法，包括 Hardware sensors，It took me a long time to analyze。
 
-该项目只提供演示api调用结果，目前实现功能：
 
--   [x] 登录
--   [x] 注册
--   [x] 抢货
--   [x] AI 真人模拟
--   [x] cookies生成
--   [x] akamai AI风控过检
+
+下面该项目只提供演示api调用结果，目前实现功能：
+
+-   [x] login api
+-   [x] registry api
+-   [x] launch/entries/v1
+-   [x] cookies mock
+-   [x] akamai data mock
 -   [x] Automatic raising number
 
 
 ![2019-10-06-11-27-15](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/e4f179895c1713b25d26d273c6c6379e.png)
 
+
+## steps
+
+tips：下面是一些简单的web端的逻辑流程，目前我没有看到akamai是否对web端有什么检测很严的影响，不过我相信，web端的数据模拟，你得懂很多算法，就如我之前说到的我做的腾讯滑块拖拽一样，它包含了加速度等等之类的信息，感兴趣的可以翻看我前面的文章，并且如果你不想自己去用代码实现mock，依赖selenium python,他没办法做到集群的
 
 登录流程：
 
