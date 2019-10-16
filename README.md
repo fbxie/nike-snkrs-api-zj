@@ -15,7 +15,38 @@ snkrs bot api
 ## web端思路
 web端其实太简单了，mock一些事件和canvas就可以完成，所以如果你感兴趣可以看这个js文件：./mobile_files/80794486b1728205dd219006256bb.js ,
 我做的数据来自于ios和android，他们使用了更复杂的算法，包括 Hardware sensors，It took me a long time to analyze。
+``` typescript
+// 所以你可以看到大概这样的代码
+public static verifyFor103(total_b: number, r4: number, total_c: number, r0c: number): Long {
 
+            let r9 = 32;
+            let r8 = Long.fromNumber(total_b).shl(32);//右移动32位
+            let r5: any = Long.fromNumber(total_c);
+            let r15: any = 4294967295;
+            r5 = r5.and(4294967295).or(r8);
+            let r2 = r5.toInt(); //
+            r5 = r5.shr(32).toInt();
+            let r6 = r2;
+            r2 = 0;
+            let r30 = 0;
+            while (true) {
+                r15 = 16;
+                if (r2 >= r15) break;
+                let lr4 = Long.fromNumber(r4);
+                r15 = lr4.shl(r2);
+                let r16: any = 32 - r2;//减去
+                r16 = lr4.shru(r16).toInt();
+                r15 = r15.or(r16).xor(r6);
+                r5 = Long.fromNumber(r5).xor(r15);
+                r2++;
+                r30 = r6;
+                r6 = r5;
+                r5 = r30;
+            }
+            let m9 = Long.fromNumber(r6).and(4294967295);
+            return Long.fromNumber(r5).shl(32).xor(m9);
+}
+```
 
 
 下面该项目只提供演示api调用结果，目前实现功能：
