@@ -103,14 +103,11 @@ public static verifyFor103(total_b: number, r4: number, total_c: number, r0c: nu
 -   [x] Automatic raising number
 
 
-![2019-10-06-11-27-15](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/e4f179895c1713b25d26d273c6c6379e.png)
+## steps 
 
+tips：下面是一些简单的web端的逻辑流程，目前我没有看到akamai是否对web端有什么检测很严的影响，不过我相信，web端的数据模拟，你得懂很多算法，就如我之前说到的我做的腾讯滑块拖拽一样，它包含了加速度等等之类的信息，感兴趣的可以翻看我前面的文章，并且如果你不想自己去用代码实现mock，依赖selenium python,他没办法做到集群的，所以对于有几万个accounts的你，要考虑清楚是否使用简单的方案。
 
-## steps
-
-tips：下面是一些简单的web端的逻辑流程，目前我没有看到akamai是否对web端有什么检测很严的影响，不过我相信，web端的数据模拟，你得懂很多算法，就如我之前说到的我做的腾讯滑块拖拽一样，它包含了加速度等等之类的信息，感兴趣的可以翻看我前面的文章，并且如果你不想自己去用代码实现mock，依赖selenium python,他没办法做到集群的
-
-登录流程：
+下面我提供登录流程思路：
 
 ```
 
@@ -148,7 +145,7 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 
 
 
-下面是部分任务截图
+下面是部分执行正常购买任务截图
 
 ![2019-10-11-18-10-22](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/b9a2dd21e26fb4f8c89d53deab8c3318.png)
 ![2019-10-11-14-25-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/d32bb6e91a8d1a2f1c4e23221dd5100e.png)
