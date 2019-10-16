@@ -1,5 +1,14 @@
 ## nike snkrs 分析
 
+Before you read the project, you must understand the description of the project,
+
+If it violates you, please contact me to delete this item
+
+授权协议：只允许研究、学习目的的分享、使用、修改，不允许任何商业用途。转载请注明出处，感谢。
+
+
+##  Start
+
 原文地址：https://github.com/zhaojunlike/nike-snkrs-api
 
 snkrs bot api
