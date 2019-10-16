@@ -5,7 +5,7 @@ Before you read the project, you must understand the description of the project,
 If it violates you, please contact my email to delete this item
 
 ``` email
-send email to (zhaojunlike@g^FUCK/qq^FUCK.com).replace(/\^FUCK/g,"");
+send email to (zhaojunlike@^FUCK/qq^FUCK.com).replace(/\^FUCK/g,"");
 ```
 
 授权协议：只允许研究、学习目的的分享、使用、修改，不允许任何商业用途。转载请注明出处，感谢。
