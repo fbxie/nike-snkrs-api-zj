@@ -46,6 +46,37 @@ public static verifyFor103(total_b: number, r4: number, total_c: number, r0c: nu
             let m9 = Long.fromNumber(r6).and(4294967295);
             return Long.fromNumber(r5).shl(32).xor(m9);
 }
+
+//又或者这个算法，能满足某些数据条件
+ static fuck_a(fArr: Float32Array, i: number, i2: number, fArr2: Float32Array) {
+            i2 = Math.floor(i2);
+            i = Math.floor(i);
+            if (i2 != 1) {
+                let i3 = i2 / 2;
+                for (let i4 = 0; i4 < i3; i4++) {
+                    let i5 = i + i4;
+                    let f = fArr[i5];
+                    let f2 = fArr[((i + i2) - 1) - i4];
+                    fArr2[i5] = f + f2;
+                    let vv2 = ((i4 + 0.5) * 3.141592653589793);
+                    fArr2[i5 + i3] = (f - f2) / (Math.cos(vv2 / i2) * 2.0);
+                }
+                this.fuck_a(fArr2, i, i3, fArr);
+                let i6 = i + i3;
+                this.fuck_a(fArr2, i6, i3, fArr);
+                for (let i7 = 0; i7 < i3 - 1; i7++) {
+                    let i8 = (i7 * 2) + i;
+                    let i9 = i + i7;
+                    fArr[i8 + 0] = fArr2[i9];
+                    let i10 = i9 + i3;
+                    fArr[i8 + 1] = fArr2[i10] + fArr2[i10 + 1];
+                }
+                let i11 = i + i2;
+                fArr[i11 - 2] = fArr2[i6 - 1];
+                let i12 = i11 - 1;
+                fArr[i12] = fArr2[i12];
+            }
+}
 ```
 
 
