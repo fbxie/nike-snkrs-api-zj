@@ -2,7 +2,7 @@
 
 Before you read the project, you must understand the description of the project,
 
-If it violates you, please contact my email to delete this item
+If the project infringes, please contact my email to delete this item
 
 ``` email
 send email to (zhaojunlike@^FUCK/qq^FUCK.com).replace(/\^FUCK/g,"");
