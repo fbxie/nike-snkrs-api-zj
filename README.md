@@ -92,16 +92,6 @@ public static verifyFor103(total_b: number, r4: number, total_c: number, r0c: nu
 ```
 
 
-下面该项目只提供演示api调用结果，目前实现功能：
-
--   [x] login api
--   [x] registry api
--   [x] launch/entries/v1
--   [x] cookies mock
--   [x] akamai data mock
--   [x] Automatic raising number
-
-
 ## steps 
 
 tips：下面是一些简单的web端的逻辑流程，目前我没有看到akamai是否对web端有什么检测很严的影响，不过我相信，web端的数据模拟，你得懂很多算法，就如我之前说到的我做的腾讯滑块拖拽一样，它包含了加速度等等之类的信息，感兴趣的可以翻看我前面的文章，并且如果你不想自己去用代码实现mock，依赖selenium python,他没办法做到集群的，所以对于有几万个accounts的你，要考虑清楚是否使用简单的方案。
