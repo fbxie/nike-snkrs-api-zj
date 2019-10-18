@@ -15,8 +15,7 @@ send email to (zhaojunlike@^FUCK/qq^FUCK.com).replace(/\^FUCK/g,"");
 
 原文地址：https://github.com/zhaojunlike/nike-snkrs-api
 
-snkrs bot api
-
+该项目只提供思路不提供任何代码
 
 > 1.Akamai ai risk control system 100% pass, 3-terminal data mock API optional
 
@@ -137,41 +136,5 @@ x-requested-with: com.nike.snkrs
 //可能,如果登录失败，要么切换设备ID，要么上传错误信息后拿到cookie重新登录
 https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&native=true&uxid=com.nike.commerce.snkrs.droid&locale=zh_CN&osVersion=24&sdkVersion=2.8.1&backendEnvironment=identity&url=https%3A%2F%2Fs3.nikecdn.com%2Flogin%3FappVersion%3D638%26experienceVersion%3D638%26uxid%3Dcom.nike.commerce.snkrs.droid%26locale%3Dzh_CN%26backendEnvironment%3Didentity%26browser%3DGoogle%2520Inc.%26os%3Dundefined%26mobile%3Dtrue%26native%3Dtrue%26visit%3D1%26visitor%3Dc36c3bfa-6700-43cd-bc7b-72a23c398b34&errorMsg=HTTP+error+message%3A++and+code%3A+401
 ```
-
-
-## 协议开放API列表
-
-![2019-10-11-13-50-10](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/6e12afb1865e1d868d0bdd97897175c0.png)
-
-
-
-下面是部分执行正常购买任务截图
-
-![2019-10-11-18-10-22](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/b9a2dd21e26fb4f8c89d53deab8c3318.png)
-![2019-10-11-14-25-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/d32bb6e91a8d1a2f1c4e23221dd5100e.png)
-
-![2019-10-12-08-08-42](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/9e50972fc3b6778fcf11dfc2ece6e48a.png)
-![2019-10-12-08-14-00](https://blog-oeynet-com.oss-cn-chengdu.aliyuncs.com/0ed28b24e443a6f035b07d625503c670.png)
-
-
-## 架构
-
-1.nodejs api端提供web服务
-
-2.golang 消息队列消费任务
-
-## 租用资源
-
-联系我
-
-## 计划
-
--   1.开放部分API
--   2.支付宝自动扫码付款插件（开放源代码）
--   3.订单后续实时同步查询状态
-
-### 协议
-
-授权协议：只允许研究、学习目的的分享、使用、修改，不允许任何商业用途。转载请注明出处，感谢。
 
 
