@@ -8,14 +8,30 @@ If the project infringes, please contact my email to delete this item
 send email to (zhaojunlike@^FUCK/qq^FUCK.com).replace(/\^FUCK/g,"");
 ```
 
+## 协议说明
+
+
 授权协议：只允许研究、学习目的的分享、使用、修改，不允许任何商业用途。转载请注明出处，感谢。
 
 
-##  start
+##  相关文章
 
 原文地址：https://github.com/zhaojunlike/nike-snkrs-api
 
 该项目只提供思路不提供任何代码，该项目持续更新，其他文章集可以在md中找到
+
+文档索引：
+
+
+-  [1.canvas中的fingerprint](./1.canvas中的fingerprint.md)
+
+-  [2.反代码混淆.md](./2.反代码混淆.md)
+
+-  [3.分析日志和sensor-data中的数据结构.md](./3.分析日志和sensor-data中的数据结构.md)
+
+-  [4.调试bmak中代码执行流程.md](./4.调试bmak中代码执行流程.md)
+
+
 
 > 1.Akamai ai risk control system 100% pass, 3-terminal data mock API optional
 
@@ -92,13 +108,13 @@ public static verifyFor103(total_b: number, r4: number, total_c: number, r0c: nu
 ```
 
 
-## steps 
+## 分析一下登录steps 
 
 tips：下面是一些简单的web端的逻辑流程，目前我没有看到akamai是否对web端有什么检测很严的影响，不过我相信，web端的数据模拟，你得懂很多算法，就如我之前说到的我做的腾讯滑块拖拽一样，它包含了加速度等等之类的信息，感兴趣的可以翻看我前面的文章，并且如果你不想自己去用代码实现mock，依赖selenium python,他没办法做到集群的，所以对于有几万个accounts的你，要考虑清楚是否使用简单的方案。
 
 下面我提供登录流程思路：
 
-```
+``` text
 
 1.访问登录页面
 
@@ -128,3 +144,8 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 ```
 
 
+## 使用discord和我取得联系
+
+Godtoy#6333
+
+群组：https://discord.gg/GXrye6
