@@ -15,7 +15,7 @@ send email to (zhaojunlike@^FUCK/qq^FUCK.com).replace(/\^FUCK/g,"");
 
 原文地址：https://github.com/zhaojunlike/nike-snkrs-api
 
-该项目只提供思路不提供任何代码
+该项目只提供思路不提供任何代码，该项目持续更新，其他文章集可以在md中找到
 
 > 1.Akamai ai risk control system 100% pass, 3-terminal data mock API optional
 
