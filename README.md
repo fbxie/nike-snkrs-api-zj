@@ -148,4 +148,4 @@ https://unite.nike.com/error?platform=android&browser=uniteSDK&mobile=true&nativ
 
 Godtoy#6333
 
-群组：https://discord.gg/GXrye6
+群组：https://discord.gg/EfTGB8K
